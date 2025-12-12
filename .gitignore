@@ -1,6 +1,14 @@
-.env
+# Fichiers Python compilés
 __pycache__/
 *.pyc
-temp_downloads/
-*.log
-.DS_Store
+
+# Fichiers de configuration sensibles et logs
+.env
+app.log
+config.py  <-- Si tu y mets des chemins locaux spécifiques
+Key Words.csv
+Destinataire_CSV.csv <-- Pour ne pas divulguer les emails de tes collègues
+
+# Dossiers de téléchargement temporaires
+BCL_Documents_Downloads/
+BCL_Temp_Staging/

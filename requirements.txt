@@ -1,8 +1,33 @@
-streamlit
-pandas
+# Web Scraping et Automatisation
+playwright
 requests
 beautifulsoup4
-pypdf
-deep-translator
-python-dotenv
-openpyxl
+# Playwright install (à exécuter après pip install)
+# playwright install
+
+# Traduction et ML
+transformers
+torch # Dépendance de PyTorch, nécessaire pour Hugging Face/Transformers
+
+# Traitement de fichiers
+PyMuPDF
+python-docx
+pandas
+fpdf
+xlwings # Nécessite MS Excel ou LibreOffice (pour la fonction Excel)
+
+# Base de données et I/O optimisée
+duckdb
+pyarrow # Dépendance pour l'I/O de DuckDB
+openpyxl # Nécessaire pour xlwings/Pandas sur les fichiers XLSX
+
+# Interface Utilisateur
+streamlit
+sentencepiece
+dotenv
+
+# Utilitaires Python standards
+# (io, os, tempfile, zipfile, csv, datetime, time, urllib.parse sont standards)
+
+
+
